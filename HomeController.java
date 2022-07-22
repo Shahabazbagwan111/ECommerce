@@ -14,6 +14,7 @@ public class HomeController {
 	{
 		System.out.println("in show home page");
 		return "/index";
+		Sysem.out.println("Hello!!!");
 	}
 
 }
