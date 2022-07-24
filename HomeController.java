@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class HomeController {
 	public HomeController() {
 		System.out.println("in ctor of "+getClass());
+System.out.println("Welcome!!!");
 	}
 	
 	@GetMapping("/")
