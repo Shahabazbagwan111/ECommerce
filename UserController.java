@@ -20,6 +20,8 @@ public class UserController {
 
 	public UserController() {
 		System.out.println("in ctor of " + getClass());
+System.out.println("Hello World");
+
 	}
 
 	@GetMapping("/register")
